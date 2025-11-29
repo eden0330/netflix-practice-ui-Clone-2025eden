@@ -5,3 +5,79 @@
 .App{
   text-align: center;
 }
+
+.visually-hidden {
+    clip: rect(1px 1px 1px 1px) !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) and (max-aspect-ratio: 4 / 3) {
+    body, html {
+        --base-font-size: 1vw;
+    }}
+
+    @media only screen and (max-width: 854px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 6px !important;
+    }}
+    @media only screen and (max-width: 960px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 6.6px !important;
+    }}
+
+    @media only screen and (max-width: 1024px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 7.2px !important;
+    }}
+
+    @media only screen and (max-width: 1152px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 8px !important;
+    }}
+
+    @media only screen and (max-height: 720px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 9px !important;
+    }}
+
+    @media only screen and (max-width: 1280px) {
+    html.watch-video-root {
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        font-size: 9px !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) and (orientation: landscape) {
+    body, html {
+        --base-font-size: 1.2vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) and (max-aspect-ratio: 4 / 3) {
+    body, html {
+        --base-font-size: 1vw;
+    }
+  }
+
