@@ -16,9 +16,9 @@ const Row = ({title,fetchUrl,isLargeRow}) => {
  useEffect(() => {
    (async () => {
      try {
-      // console.log(fetchUrl);
+      
        const request = await axios.get(fetchUrl);
-       console.log(request);
+      
        setMovies(
          request.data.results || []);
      } catch (error) {
@@ -69,7 +69,7 @@ const opts = {
               className={`row_poster ${isLargeRow ?"row_posterLarge": ""}`}
             />
           ))}
-          {/* src={`${base_url}${imagePath}`} */}
+        
         </div>
         <div style={{ padding: "40px" }}>
           {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} /> }

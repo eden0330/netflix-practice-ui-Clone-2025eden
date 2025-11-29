@@ -26,7 +26,7 @@ useEffect(()=>{
     })()
 },[]);
 
-// if (!movie) return <div>Loading...</div>;
+
 if (!movie) return null;
 
 

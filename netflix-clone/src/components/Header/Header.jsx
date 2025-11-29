@@ -65,7 +65,7 @@ useEffect(() => {
             </ul>
           </div>
 
-          {/* //right icon */}
+       
 
           <div className={styles.header_right}>
             <ul className={styles.nav_list}>
@@ -83,13 +83,13 @@ useEffect(() => {
             <div className={styles.profile} onClick={toggleProfileMenu}>
               <ul className={styles.Account_menu}>
                 <li>
-                  {/* <AccountBoxIcon className={styles.icon} /> */}
+               
 
                   <a
                     className={styles.icon}
                     href="/YourAccount"
                     role="button"
-                    tabindex="0"
+                    tabIndex="0"
                     aria-haspopup="true"
                     aria-expanded="false"
                     aria-label="edadani1514 – Account &amp; Settings"
@@ -107,9 +107,7 @@ useEffect(() => {
                   </span>
                 </li>
 
-                {/* <li>
-                  <ArrowDropDownIcon className={styles.icon} />
-                </li> */}
+             
               </ul>
 
               {profileOpen && (
