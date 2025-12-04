@@ -8,12 +8,14 @@ import RowList from '../../components/Rows/RowList';
 
 const Home = () => {
   return (
-    <div>
-      <Header /><br></br>
-<Banner />
-<RowList />
-      <Footer />
+    <div className="main_layout">
+      <Header />
+      <div className="page_content">
+        <Banner />
+        <RowList />
+      </div>
 
+      <Footer />
     </div>
   );
 }

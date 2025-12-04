@@ -75,9 +75,14 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 840px) and (max-aspect-ratio: 4 / 3) {
+/* @media screen and (min-width: 481px) and (max-width: 840px) and (max-aspect-ratio: 4 / 3) {
     body, html {
         --base-font-size: 1vw;
     }
-  }
+  } */
 
+@media screen and (min-width: 0) and (max-width: 480px) and (max-aspect-ratio: 4 / 3) {
+    body, html {
+        --base-font-size: 1.5vw;
+    }
+}
